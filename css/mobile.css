@@ -1,0 +1,115 @@
+
+
+/*
+===============================
+======== COMMON STYLES ========
+===============================
+*/
+
+:root {
+    --padding-tb: 30px;
+    --padding-lr: 10px;
+}
+
+
+/*
+=================================
+======== CONTENT SECTION ========
+=================================
+*/
+
+/********************************
+****** TAGLINE and PROFILE ******
+********************************/
+
+#tagline {
+    grid-column: 1/15;
+    grid-row: 3/4;
+    margin: 10px;
+}
+
+#profile-image {
+    grid-column: 1/15;
+    grid-row: 1/2;
+    margin: 10px 0;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#profile-text {
+    grid-column: 1/15;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+
+/***********************************
+****** ABOUT ME and EDUCATION ******
+***********************************/
+
+#about-me {
+    grid-column: 1/15;
+    grid-row: 4/5;
+}
+
+#education {
+    grid-column: 1/15;
+    grid-row: 5/6;
+    overflow: scroll;
+}
+
+#about-me, #education {
+    padding: var(--padding-tb) var(--padding-lr);
+}
+
+
+/**********************
+****** QUALITIES ******
+**********************/
+
+#qualities {
+    grid-column: 1/15;
+    grid-row: 6/7;
+    padding: var(--padding-tb) var(--padding-lr);
+}
+
+#skills {
+    grid-column: 1/15;
+    grid-row: 1/2;
+}
+
+#hobbies {
+    grid-column: 1/15;
+    grid-row: 2/3;
+}
+
+#strengths {
+    grid-column: 1/15;
+    grid-row: 3/4;
+}
+
+
+/***********************
+****** CONTACT ME ******
+***********************/
+
+#contact {
+    grid-column: 1/15;
+    grid-row: 7/8;
+    padding: var(--padding-tb) var(--padding-lr);
+}
+
+#contact-details {
+    grid-column: 1/15;
+    grid-row: 1/2;
+}
+
+#suggestion-form {
+    grid-column: 1/15;
+    grid-row: 2/3;
+}
+
+#footer {
+    grid-column: 1/15;
+    grid-row: 8/9;
+}
